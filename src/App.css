@@ -1,7 +1,6 @@
 .container {
   color: white;
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -12,12 +11,9 @@
   margin-bottom: 4rem;
 }
 .products-list {
-  background-color: #080e1d;
-  color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row;
 }
 .product {
   flex: 1;
@@ -25,8 +21,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
-  margin: auto;
 }
 .product-img {
   width: 40%;
