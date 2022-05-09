@@ -1,6 +1,6 @@
-import { products } from './products.js';
+import { products } from '../products.js';
 import ProductItem from './ProductItem';
-import './App.css';
+import '../App.css';
 
 function ProductList() {
   const result = products.map((e) => (
